@@ -4,20 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="estilo.css">
-    <script src="script.js" defer></script>
-    <link rel="minhalogo" type="image/jpg" href="favicon.png"/>    
+    <link rel="stylesheet" href="estilo/main.css">
+    <link rel="icon" href="imagem/favicon.png" type="image/x-icon">
 </head>
 <body>
+
+    <!-- Menu -->
     <header class="header">
-        <a href="a" class="logo">WF</a>
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Galeria</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
+            <a href="main.html">Home</a>
+            <a href="#educacao">Sobre</a>
+            <a href="main.html">Galeria</a>
+            <a href="form.html">Contato</a>
+             <button id="themeButton"><h1>🌗</h1></button>
         </nav>
     </header>
+
+    <!-- Contéudo principal -->
+    <div class="main">
+        <h1 class="nome">Wandeilson Fernandes</h1>
+    <div class="texto-esquerdo">
+        <h2>💻 Desenvolvedor de Software</h2>
+        <h2>🧑‍💻 C#, Python, C++, Javascript</h2>
+        <h2>✉️ Entre em Contato!</h2>
+    </div>
+    <div class="image-container">
+        <img src="imagem/euzin.jpeg" alt="">
+        </div>
+    <div class="texto-direito">
+        <h2>🤓 Trabalho em equipe</h2>
+        <h2>📢 Comunicação eficaz</h2>
+        <h2>🕹️ Resolução de problemas</h2>
+    </div>
+    <div class="resumo" id="educacao" >
+        <h1>Olá! Sou Wandeilson Fernandes Costa,
+            um amante da tecnologia
+            com 21 anos de idade, atualmente dedicado
+            aos estudos no curso de
+            Ciência da Computação na UERR</h1>
+    </div>
+    <div class="educacao" >
+        <h2><strong>Educação:</strong></h2>
+
+        <h3>Universitário </h3>
+        <h3>Graduando em Ciência da Computação </h3>
+        <h3>Certificações em Desenvolvimento de Software</h3>
+        
+    </div>
+    <div class="profissional">
+        <h2><strong>Profissional:</strong></h2>
+
+        <h3>Trabalhou na NASA </h3>
+        <h3>Programador Junior no GOOGLE </h3>
+        <h3>Participação em hackathons e competições</h3>
+    </div>
+    
+       <!-- Rodapé -->
+    <footer class="footer">
+        <p> Desenvolvido por Wandeilson Fernandes &copy; 2024 Portfólio. Todos os direitos reservados.</p></p>
+    </footer>
+    </div>
+    <script>
+    document.getElementById('themeButton').addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    });
+</script>
 </body>
 </html>
