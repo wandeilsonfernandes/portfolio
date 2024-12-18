@@ -8,6 +8,15 @@ Este é um site que exibe informações profissionais, habilidades, e um formul�
 
 ---
 
+## Tema Light
+![Tela Inicial](https://i.imgur.com/iZ1lrBr.png)
+
+## Tema Dark
+![Tela inicial com tema dark](https://i.imgur.com/oDzBvVV.png)
+
+## Formulário para Contato
+![Formulário de Contato](https://i.imgur.com/t2msBgy.png)
+
 ### 📜 **Descrição do Projeto**
 
 Este portfólio inclui:  
